@@ -32,7 +32,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        | App  | LGui |       | Alt  | App  |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
- *                                 | Space| Del  |------|       |------|  BS    |Ent/L2|
+ *                                 | Space| Del  |------|       |------|  BS    |Space |
  *                                 |      |      | End  |       | PgDn |        |      |
  *                                 `--------------------'       `----------------------'
  */
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                   LT(MDIA,KC_ENT),KC_DOWN,KC_LBRC,KC_RBRC,KC_FN1,
              KC_LALT,        KC_APP,
              KC_PGUP,
-             KC_PGDN,KC_BSPC,LT(MDIA,KC_ENT)
+             KC_PGDN,KC_BSPC,KC_SPACE
     ),
 /* Keymap 1: Symbol Layer
  *
